@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}404{% endblock %}
+
+{% block body %}
+<p>Sorry.</p>
+<a href="{{ url('Post') }}">Go back</a>
+<p>404 Not Found: {{ page }}</p>
+{% endblock %}

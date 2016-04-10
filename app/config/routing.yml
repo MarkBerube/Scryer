@@ -1,0 +1,6 @@
+Post:
+    path:     /
+    defaults: { _controller: AppBundle:Post:index }
+Post_Detail:
+    path:     /{page}
+    defaults: { _controller: AppBundle:Post:detail }

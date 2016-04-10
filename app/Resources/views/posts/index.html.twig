@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}My Test Blog{% endblock %}
+
+{% block body %}
+    	{% for entry in post_entries %}
+    	<div class="post">
+        	{{ entry.body | striptags('<b><i><em><s><sup><sub><strike><strong><a><p><span><div><pre><code><blockquote><br><hr><h1><h2><h3><h4><h5><h6><table><tr><td><li><ul><ol><img>') | raw  }}
+    		<a href="{{ url('Post_Detail', {'page' : entry.linkName}) }}">Permalink</a>
+    		<hr>
+    	</div>
+    	{% endfor %}
+{% endblock %}
