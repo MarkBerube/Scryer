@@ -15,5 +15,6 @@ A flat file blog CMS written in Symfony 2 PHP
 
 ## Todo
 
-1. Minify CSS
-2. Add comments to code
+1. Change theming
+2. Add typography
+3. Minify CSS
