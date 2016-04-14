@@ -8,9 +8,16 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Finder\Finder;
 use AppBundle\Utils\Markdown;
 
+/**
+ * Controls admin's markdown files located in directory pointed by the postpath service
+ */
 class PostController extends Controller
 {
 
+    /**
+     * Returns all posts available sorted by modified time
+     * @return Response
+     */
     public function indexAction(Request $request)
     {
 
@@ -37,6 +44,11 @@ class PostController extends Controller
         );
     }
 
+    /**
+     * Returns a post file named $page
+     * @param $page The markdown file name
+     * @return Response
+     */
     public function detailAction($page)
     {
 
