@@ -1,0 +1,25 @@
+{
+  "name": "scryer",
+  "version": "1.0.0",
+  "description": "npm resources for Scryer project",
+  "main": "index.js",
+  "dependencies": {
+    "uglifycss": "^0.0.20"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkBerube/Scryer.git"
+  },
+  "keywords": [
+    "scryer",
+    "blog",
+    "flatfile"
+  ],
+  "author": "Mark Berube",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarkBerube/Scryer/issues"
+  },
+  "homepage": "https://github.com/MarkBerube/Scryer#readme"
+}
