@@ -1,6 +1,8 @@
 # Scryer
 
-A flat file blog CMS written in Symfony 2 PHP
+A simple flat file blog CMS written in Symfony 2 PHP
+
+![screenshot](https://github.com/MarkBerube/Scryer/blob/master/screenshot.jpg)
 
 ## Installation
 
@@ -15,7 +17,3 @@ A flat file blog CMS written in Symfony 2 PHP
 
 1. Add content to the web/posts/ directory.
 2. Change template headers located in app/Resources/views/ under partials and the base.html.twig file.
-
-## Todo
-
-Add typography
