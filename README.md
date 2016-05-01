@@ -1,6 +1,6 @@
 # Scryer
 
-A simple Markdown flat file blog CMS written in Symfony 2 PHP
+A simple Markdown content management system written in Symfony 2 PHP
 
 ![screenshot](https://github.com/MarkBerube/Scryer/blob/master/screenshot.jpg)
 
@@ -15,5 +15,5 @@ A simple Markdown flat file blog CMS written in Symfony 2 PHP
 
 ## Usage
 
-1. Add content to the web/posts/ directory in [Markdown format](https://daringfireball.net/projects/markdown/).
+1. Add content to the web/posts/ directory in [Markdown format](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 2. Change template headers located in app/Resources/views/ under partials and the base.html.twig file.
