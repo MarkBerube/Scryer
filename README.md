@@ -20,4 +20,3 @@ A flat file blog CMS written in Symfony 2 PHP
 
 1. Change theming
 2. Add typography
-3. Minify CSS
