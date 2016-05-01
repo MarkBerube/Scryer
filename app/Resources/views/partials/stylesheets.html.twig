@@ -1,5 +1,6 @@
 {% block stylesheets %}
-    {% stylesheets 'bundles/app/css/*' filter='cssrewrite' %}
+
+    {% stylesheets 'bundles/app/css/*' filter='uglifycss' filter='cssrewrite' %}
         <link rel="stylesheet" href="{{ asset_url }}" />
     {% endstylesheets %}
 {% endblock %}
